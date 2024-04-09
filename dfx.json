@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "utxos_backend": {
+      "main": "src/utxos_backend/main.mo",
+      "type": "motoko"
+    },
+    "bitcoin": {
+      "main": "src/basic_bitcoin/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
